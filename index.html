@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pernikahan Nanang Hikmawan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <h3>The Wedding of</h3>
+      <h1>Nanang Hikmawan</h1>
+      <p>Minggu, 7 September 2025</p>
+    </div>
+  </div>
+
+  <section class="section" id="countdown">
+    <h2>Hitung Mundur</h2>
+    <div id="timer">
+      <div><span id="days">0</span>Hari</div>
+      <div><span id="hours">0</span>Jam</div>
+      <div><span id="minutes">0</span>Menit</div>
+      <div><span id="seconds">0</span>Detik</div>
+    </div>
+  </section>
+
+  <section class="section" id="acara">
+    <h2>Detail Acara</h2>
+    <p><strong>Akad & Resepsi:</strong> 07 September 2025, 08:00 WIB</p>
+    <p><strong>Tempat:</strong> <a href="https://maps.app.goo.gl/xABKqBgKsQXYNUYo7" target="_blank">Klik untuk buka Google Maps</a></p>
+  </section>
+
+  <section class="section" id="rsvp">
+    <h2>Konfirmasi Kehadiran</h2>
+    <form id="rsvp-form">
+      <input type="text" placeholder="Nama Anda" required />
+      <select required>
+        <option value="">-- Kehadiran --</option>
+        <option value="Hadir">Hadir</option>
+        <option value="Tidak Hadir">Tidak Hadir</option>
+      </select>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <section class="section" id="lokasi">
+    <h2>Lokasi Acara</h2>
+    <iframe src="https://maps.google.com/maps?q=Gedung&output=embed" width="100%" height="300" style="border:0;" allowfullscreen=""></iframe>
+  </section>
+
+  <section class="section" id="music">
+    <audio controls autoplay loop>
+      <source src="assets/audio.mp3" type="audio/mpeg">
+      Browser Anda tidak mendukung audio.
+    </audio>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
